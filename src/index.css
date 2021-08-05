@@ -8,3 +8,12 @@
   border-style: solid;
   border-width: 0;
 }
+
+.faux-td {
+  display: flex;
+  align-items: center;
+}
+
+.faux-td .form-check-input {
+  margin: 0;
+}

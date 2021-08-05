@@ -9,7 +9,7 @@ const emptyWord = {
   active: true
 };
 
-const EditWord = ({ wordIn, addWord, editWord }) => {
+const EditWord = ({ wordIn, submitHandler }) => {
   const [word, setWord] = useState(wordIn);
 
   const setHangul = (e) => { setWord({...word, hangul: e.target.value }); }
@@ -20,11 +20,7 @@ const EditWord = ({ wordIn, addWord, editWord }) => {
   const onSubmit = (e) => {
     e.preventDefault();
 
-    if (editWord) {
-      editWord(word);
-    } else {
-      addWord(word);
-    }
+    submitHandler(word);
 
     setWord(emptyWord);
   }
@@ -34,9 +30,11 @@ const EditWord = ({ wordIn, addWord, editWord }) => {
       <div className="col faux-td"><input type="text" value={ word.hangul } onChange={ setHangul } /></div>
       <div className="col faux-td"><input type="text" value={ word.romanized } onChange={ setRomanized } /></div>
       <div className="col faux-td"><input type="text" value={ word.english } onChange={ setEnglish } /></div>
-      <div className="col faux-td"><input type="checkbox" checked={ word.active } className="form-check-input" onChange={ setActive } /></div>
+      <div className="col faux-td">
+        <input type="checkbox" checked={ word.active } className="form-check-input" onChange={ setActive } />
+      </div>
       <div className="col-4 faux-td">
-        { editWord && <input type="hidden" value={ word.id } /> }
+        { word.id && <input type="hidden" value={ word.id } /> }
         <input type="submit" value="Save Word" className="btn btn-primary" />
       </div>
     </form>
@@ -44,9 +42,7 @@ const EditWord = ({ wordIn, addWord, editWord }) => {
 }
 
 EditWord.defaultProps = {
-  wordIn: emptyWord,
-  addWord: false,
-  editWord: false
+  wordIn: emptyWord
 }
 
 export default EditWord
