@@ -1,6 +1,13 @@
-import { useState, useEffect } from 'react'
-import Header from './components/Header'
-import List from './components/List'
+import { useState, useEffect } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect
+} from "react-router-dom";
+import Header from './components/Header';
+import Practice from './components/Practice';
+import List from './components/List';
 
 function App() {
   const [words, setWords] = useState([]);
@@ -61,19 +68,27 @@ function App() {
   }
 
   return (
-    <>
+    <Router>
+      <Route exact path="/">
+        <Redirect to="/list" />
+      </Route>
       <Header />
-      <List 
-        words={ words } 
-        addWord={ addWord } 
-        editWord={ editWord } 
-        toggleActive={ toggleActive } 
-        deleteWord={ deleteWord }
-      />
-    </>
+      <Switch>
+        <Route path="/list">
+          <List 
+            words={ words } 
+            addWord={ addWord } 
+            editWord={ editWord } 
+            toggleActive={ toggleActive } 
+            deleteWord={ deleteWord }
+          />
+        </Route>
+        <Route path="/practice">
+          <Practice />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
 export default App;
-
-

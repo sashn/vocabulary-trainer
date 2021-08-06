@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Header = props => {
   return (
     <header className="p-3 bg-dark text-white">
@@ -10,8 +12,8 @@ const Header = props => {
           </div>
 
           <ul className="nav fs-3">
-            <li><a href="#" className="nav-link px-2 text-secondary">list</a></li>
-            <li><a href="#" className="nav-link px-2 text-white">train</a></li>
+            <li><NavLink to="/list" className="nav-link px-2" activeClassName="text-secondary">list</NavLink></li>
+            <li><NavLink to="/practice" className="nav-link px-2" activeClassName="text-secondary">practice</NavLink></li>
           </ul>
 
         </div>
