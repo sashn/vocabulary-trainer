@@ -12,8 +12,26 @@ const Header = props => {
           </div>
 
           <ul className="nav fs-3">
-            <li><NavLink to="/list" className="nav-link px-2" activeClassName="text-secondary">list</NavLink></li>
-            <li><NavLink to="/practice" className="nav-link px-2" activeClassName="text-secondary">practice</NavLink></li>
+            <li>
+              <NavLink 
+                to="/list" 
+                className="nav-link px-2" 
+                activeClassName="text-secondary"
+                style={{ color: "white" }}
+              >
+                list
+              </NavLink>
+            </li>
+            <li>
+              <NavLink 
+                to="/practice" 
+                className="nav-link px-2" 
+                activeClassName="text-secondary"
+                style={{ color: "white" }}
+              >
+                practice
+              </NavLink>
+            </li>
           </ul>
 
         </div>
