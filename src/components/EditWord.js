@@ -26,7 +26,7 @@ const EditWord = ({ wordIn, submitHandler }) => {
   }
   
   return (
-    <form action="" className="row faux-tr" onSubmit={ onSubmit }>
+    <form className="row faux-tr" onSubmit={ onSubmit }>
       <div className="col faux-td"><input type="text" value={ word.hangul } onChange={ setHangul } /></div>
       <div className="col faux-td"><input type="text" value={ word.romanized } onChange={ setRomanized } /></div>
       <div className="col faux-td"><input type="text" value={ word.english } onChange={ setEnglish } /></div>

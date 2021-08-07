@@ -84,7 +84,7 @@ function App() {
           />
         </Route>
         <Route path="/practice">
-          <Practice />
+          <Practice words={ words } />
         </Route>
       </Switch>
     </Router>
