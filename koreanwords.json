@@ -1,11 +1,130 @@
 {
   "words": [
     {
-      "id": 1,
-      "english": "person",
+      "hangul": "와",
+      "english": "wow",
+      "romanized": "wa",
+      "active": true,
+      "id": 1
+    },
+    {
+      "hangul": "안녕하세요",
+      "english": "good morning",
+      "romanized": "annyeonghaseyo",
+      "active": true,
+      "id": 2
+    },
+    {
+      "hangul": "에",
+      "english": "to/in",
+      "romanized": "e",
+      "active": true,
+      "id": 3
+    },
+    {
+      "hangul": "깨라",
+      "english": "wake up",
+      "romanized": "ggaera",
+      "active": true,
+      "id": 4
+    },
+    {
+      "hangul": "빠l이 빠l이",
+      "english": "quick! fast!",
+      "romanized": "ppali ppali",
+      "active": true,
+      "id": 5
+    },
+    {
+      "hangul": "감사합니다",
+      "english": "thank you",
+      "romanized": "gamsahabnida [kamsamida]",
+      "active": true,
+      "id": 6
+    },
+    {
+      "hangul": "의",
+      "english": "of",
+      "romanized": "ui",
+      "active": true,
+      "id": 7
+    },
+    {
+      "hangul": "우유",
+      "english": "milk",
+      "romanized": "uyu",
+      "active": true,
+      "id": 8
+    },
+    {
+      "hangul": "친구",
+      "english": "friend",
+      "romanized": "chingu",
+      "active": true,
+      "id": 9
+    },
+    {
+      "hangul": "우의",
+      "english": "friendship",
+      "romanized": "uui [uwhä]",
+      "active": true,
+      "id": 10
+    },
+    {
+      "hangul": "아이",
+      "english": "child",
+      "romanized": "ai",
+      "active": true,
+      "id": 11
+    },
+    {
+      "hangul": "선생님",
+      "english": "teacher",
+      "romanized": "seonsaengnim [sonsängnim]",
+      "active": true,
+      "id": 12
+    },
+    {
       "hangul": "사람",
+      "english": "person",
       "romanized": "saram",
-      "active": true
+      "active": true,
+      "id": 13
+    },
+    {
+      "hangul": "남자",
+      "english": "man",
+      "romanized": "namja",
+      "active": true,
+      "id": 14
+    },
+    {
+      "hangul": "여자",
+      "english": "woman",
+      "romanized": "yeoja",
+      "active": true,
+      "id": 15
+    },
+    {
+      "hangul": "또는",
+      "english": "or",
+      "romanized": "ddoneun",
+      "active": true,
+      "id": 16
+    },
+    {
+      "hangul": "와",
+      "english": "and/with",
+      "romanized": "wa",
+      "active": true,
+      "id": 17
+    },
+    {
+      "hangul": "과",
+      "english": "and/with",
+      "romanized": "gwa",
+      "active": true,
+      "id": 18
     }
   ]
 }

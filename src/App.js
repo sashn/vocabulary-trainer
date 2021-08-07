@@ -8,6 +8,7 @@ import {
 import Header from './components/Header';
 import Practice from './components/Practice';
 import List from './components/List';
+import AddManyWords from './components/AddManyWords';
 
 function App() {
   const [words, setWords] = useState([]);
@@ -40,6 +41,8 @@ function App() {
     const data = await res.json();
 
     setWords([...words, data]);
+
+    return data;
   }
 
   const toggleActive = async (id) => {
@@ -75,6 +78,7 @@ function App() {
       <Header />
       <Switch>
         <Route path="/list">
+          <AddManyWords addWord={ addWord } />
           <List 
             words={ words } 
             addWord={ addWord } 

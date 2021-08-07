@@ -15,7 +15,8 @@ const PracticeForm = ({ words }) => {
   }
 
   const nextTask = () => {
-    const word = words[Math.floor(Math.random() * words.length)];
+    const activeWords = words.filter((word) => word.active);
+    const word = activeWords[Math.floor(Math.random() * activeWords.length)];
 
     if (typeof word !== 'undefined') {
       setQuestion(word.hangul);
