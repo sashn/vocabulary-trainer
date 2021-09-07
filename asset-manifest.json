@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/vocabulary-trainer/static/css/main.a617e044.chunk.css",
+    "main.js": "/vocabulary-trainer/static/js/main.0c58314d.chunk.js",
+    "main.js.map": "/vocabulary-trainer/static/js/main.0c58314d.chunk.js.map",
+    "runtime-main.js": "/vocabulary-trainer/static/js/runtime-main.78c0c89e.js",
+    "runtime-main.js.map": "/vocabulary-trainer/static/js/runtime-main.78c0c89e.js.map",
+    "static/js/2.1d5e8d3a.chunk.js": "/vocabulary-trainer/static/js/2.1d5e8d3a.chunk.js",
+    "static/js/2.1d5e8d3a.chunk.js.map": "/vocabulary-trainer/static/js/2.1d5e8d3a.chunk.js.map",
+    "static/js/3.eef0da2e.chunk.js": "/vocabulary-trainer/static/js/3.eef0da2e.chunk.js",
+    "static/js/3.eef0da2e.chunk.js.map": "/vocabulary-trainer/static/js/3.eef0da2e.chunk.js.map",
+    "index.html": "/vocabulary-trainer/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/vocabulary-trainer/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.1d5e8d3a.chunk.js.LICENSE.txt": "/vocabulary-trainer/static/js/2.1d5e8d3a.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/vocabulary-trainer/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78c0c89e.js",
+    "static/js/2.1d5e8d3a.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.0c58314d.chunk.js"
+  ]
+}
