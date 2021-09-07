@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vocabulary-trainer/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/vocabulary-trainer/static/js/main.311d5fd7.chunk.js",
-    "main.js.map": "/vocabulary-trainer/static/js/main.311d5fd7.chunk.js.map",
+    "main.js": "/vocabulary-trainer/static/js/main.1c0a0d01.chunk.js",
+    "main.js.map": "/vocabulary-trainer/static/js/main.1c0a0d01.chunk.js.map",
     "runtime-main.js": "/vocabulary-trainer/static/js/runtime-main.73113f9e.js",
     "runtime-main.js.map": "/vocabulary-trainer/static/js/runtime-main.73113f9e.js.map",
     "static/js/2.2560846d.chunk.js": "/vocabulary-trainer/static/js/2.2560846d.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.73113f9e.js",
     "static/js/2.2560846d.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.311d5fd7.chunk.js"
+    "static/js/main.1c0a0d01.chunk.js"
   ]
 }
