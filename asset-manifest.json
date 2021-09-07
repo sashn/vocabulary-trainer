@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/vocabulary-trainer/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/vocabulary-trainer/static/js/main.ee1d6e37.chunk.js",
-    "main.js.map": "/vocabulary-trainer/static/js/main.ee1d6e37.chunk.js.map",
-    "runtime-main.js": "/vocabulary-trainer/static/js/runtime-main.73113f9e.js",
-    "runtime-main.js.map": "/vocabulary-trainer/static/js/runtime-main.73113f9e.js.map",
-    "static/js/2.2560846d.chunk.js": "/vocabulary-trainer/static/js/2.2560846d.chunk.js",
-    "static/js/2.2560846d.chunk.js.map": "/vocabulary-trainer/static/js/2.2560846d.chunk.js.map",
-    "static/js/3.dc1a5e5c.chunk.js": "/vocabulary-trainer/static/js/3.dc1a5e5c.chunk.js",
-    "static/js/3.dc1a5e5c.chunk.js.map": "/vocabulary-trainer/static/js/3.dc1a5e5c.chunk.js.map",
+    "main.js": "/vocabulary-trainer/static/js/main.c38ad466.chunk.js",
+    "main.js.map": "/vocabulary-trainer/static/js/main.c38ad466.chunk.js.map",
+    "runtime-main.js": "/vocabulary-trainer/static/js/runtime-main.0dc0f292.js",
+    "runtime-main.js.map": "/vocabulary-trainer/static/js/runtime-main.0dc0f292.js.map",
+    "static/js/2.725ae34d.chunk.js": "/vocabulary-trainer/static/js/2.725ae34d.chunk.js",
+    "static/js/2.725ae34d.chunk.js.map": "/vocabulary-trainer/static/js/2.725ae34d.chunk.js.map",
+    "static/js/3.b7ffb69b.chunk.js": "/vocabulary-trainer/static/js/3.b7ffb69b.chunk.js",
+    "static/js/3.b7ffb69b.chunk.js.map": "/vocabulary-trainer/static/js/3.b7ffb69b.chunk.js.map",
     "index.html": "/vocabulary-trainer/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/vocabulary-trainer/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.2560846d.chunk.js.LICENSE.txt": "/vocabulary-trainer/static/js/2.2560846d.chunk.js.LICENSE.txt"
+    "static/js/2.725ae34d.chunk.js.LICENSE.txt": "/vocabulary-trainer/static/js/2.725ae34d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.73113f9e.js",
-    "static/js/2.2560846d.chunk.js",
+    "static/js/runtime-main.0dc0f292.js",
+    "static/js/2.725ae34d.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.ee1d6e37.chunk.js"
+    "static/js/main.c38ad466.chunk.js"
   ]
 }
