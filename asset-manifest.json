@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vocabulary-trainer/static/css/main.6dea0f05.chunk.css",
+    "main.css": "/vocabulary-trainer/static/css/main.a52a86df.chunk.css",
     "main.js": "/vocabulary-trainer/static/js/main.535b1231.chunk.js",
     "main.js.map": "/vocabulary-trainer/static/js/main.535b1231.chunk.js.map",
     "runtime-main.js": "/vocabulary-trainer/static/js/runtime-main.c46523a8.js",
@@ -10,13 +10,13 @@
     "static/js/3.65f4e756.chunk.js": "/vocabulary-trainer/static/js/3.65f4e756.chunk.js",
     "static/js/3.65f4e756.chunk.js.map": "/vocabulary-trainer/static/js/3.65f4e756.chunk.js.map",
     "index.html": "/vocabulary-trainer/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/vocabulary-trainer/static/css/main.6dea0f05.chunk.css.map",
+    "static/css/main.a52a86df.chunk.css.map": "/vocabulary-trainer/static/css/main.a52a86df.chunk.css.map",
     "static/js/2.f3a2db0b.chunk.js.LICENSE.txt": "/vocabulary-trainer/static/js/2.f3a2db0b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c46523a8.js",
     "static/js/2.f3a2db0b.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
+    "static/css/main.a52a86df.chunk.css",
     "static/js/main.535b1231.chunk.js"
   ]
 }
