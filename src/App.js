@@ -29,7 +29,7 @@ function App() {
     return data;
   }
 
-  const addWord = async (word) => {
+  const postWord = async (word) => {
     const res = await fetch(serverUrl, {
       method: 'POST',
       headers: {
@@ -40,9 +40,25 @@ function App() {
 
     const data = await res.json();
 
-    setWords([...words, data]);
-
     return data;
+  }
+
+  const addWord = async (word) => {
+    const res = await postWord(word);
+
+    setWords([...words, res]);
+  }
+
+  const addManyWords = async (manyWords) => {
+    const newWords = words.slice(0);
+
+    for (let i=0; i < manyWords.length; i++) {
+      const word = manyWords[i];
+      const res = await postWord(word);
+      newWords.push(res);
+    }
+
+    setWords(newWords);
   }
 
   const toggleActive = async (id) => {
@@ -78,7 +94,7 @@ function App() {
       <Header />
       <Switch>
         <Route path="/list">
-          <AddManyWords addWord={ addWord } />
+          <AddManyWords addManyWords={ addManyWords } />
           <List 
             words={ words } 
             addWord={ addWord } 

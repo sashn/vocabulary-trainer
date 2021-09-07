@@ -1,30 +1,33 @@
 import { useState } from 'react';
 
-const AddManyWords = ({ addWord }) => {
+const AddManyWords = ({ addManyWords }) => {
   const [wordsLines, setWordsLines] = useState('');
 
-  const addManyWords = async (e) => {
+  const onSubmit = (e) => {
     e.preventDefault();
 
-    await wordsLines.split('\n').map(async (wordLine) => {
+    const words = [];
+
+    wordsLines.split('\n').map((wordLine) => {
       const [hangulAndRomanized, english] = wordLine.split(' - ');
       const [hangul, romanized,] = hangulAndRomanized.split(/\ \(|\)/);
 
       if (hangul && english && romanized) {
-        const res = await addWord({
+        words.push({
           hangul: hangul,
           english: english,
           romanized: romanized,
           active: true
         });
-        return res;
       }
     });
+
+    addManyWords(words);
   }
 
   return (
     <div className="container my-5">
-      <form onSubmit={ addManyWords }>
+      <form onSubmit={ onSubmit }>
 
         <textarea 
           className="form-control fs-4" 

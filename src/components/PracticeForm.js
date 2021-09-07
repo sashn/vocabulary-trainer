@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 const PracticeForm = ({ words }) => {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -6,6 +6,8 @@ const PracticeForm = ({ words }) => {
   const [answer, setAnswer] = useState('');
   const [guess, setGuess] = useState('');
   const [isGuessCorrect, setIsGuessCorrect] = useState(false);
+  const buttonNextTask = useRef(null);
+  const inputText = useRef(null);
 
   const checkGuess = (e) => {
     e.preventDefault();
@@ -31,6 +33,14 @@ const PracticeForm = ({ words }) => {
     nextTask();
   }, [words]);
 
+  useEffect(() => {
+    if (isSubmitted) {
+      buttonNextTask.current.focus();
+    } else {
+      inputText.current.focus();
+    }
+  }, [isSubmitted]);
+
   return (
 
     <form onSubmit={ checkGuess }>
@@ -43,10 +53,11 @@ const PracticeForm = ({ words }) => {
               className="form-control fs-4" 
               value={ guess } 
               style={{ height: "150px", paddingBottom: "110px" }}
+              readOnly
             />
           </fieldset>
           <div className="text-center">
-            <button className="btn btn-secondary my-3" style={{ width: "150px" }} onClick={ nextTask }>Next Word</button>
+            <button className="btn btn-secondary my-3" ref={ buttonNextTask } style={{ width: "150px" }} onClick={ nextTask }>Next Word</button>
           </div>
           { isGuessCorrect ?
             <p className="fs-4 p-3" style={{ backgroundColor: "PaleGreen" }}>Right!</p>
@@ -63,6 +74,7 @@ const PracticeForm = ({ words }) => {
             value={ guess } 
             onChange={ (e) => setGuess(e.target.value) } 
             style={{ height: "150px", paddingBottom: "110px" }}
+            ref={ inputText }
           />
           <div className="text-center">
             <input type="submit" value="Check" className="btn btn-primary my-3" style={{ width: "150px" }} />

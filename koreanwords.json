@@ -4,127 +4,575 @@
       "hangul": "와",
       "english": "wow",
       "romanized": "wa",
-      "active": true,
+      "active": false,
       "id": 1
-    },
-    {
-      "hangul": "안녕하세요",
-      "english": "good morning",
-      "romanized": "annyeonghaseyo",
-      "active": true,
-      "id": 2
-    },
-    {
-      "hangul": "에",
-      "english": "to/in",
-      "romanized": "e",
-      "active": true,
-      "id": 3
-    },
-    {
-      "hangul": "깨라",
-      "english": "wake up",
-      "romanized": "ggaera",
-      "active": true,
-      "id": 4
     },
     {
       "hangul": "빠l이 빠l이",
       "english": "quick! fast!",
       "romanized": "ppali ppali",
-      "active": true,
-      "id": 5
+      "active": false,
+      "id": 2
+    },
+    {
+      "hangul": "안녕하세요",
+      "english": "good morning",
+      "romanized": "annyeonghaseyo",
+      "active": false,
+      "id": 3
+    },
+    {
+      "hangul": "사랑해",
+      "english": "i love you",
+      "romanized": "saranghae",
+      "active": false,
+      "id": 4
     },
     {
       "hangul": "감사합니다",
       "english": "thank you",
       "romanized": "gamsahabnida [kamsamida]",
-      "active": true,
-      "id": 6
+      "active": false,
+      "id": 5
     },
     {
       "hangul": "의",
       "english": "of",
       "romanized": "ui",
-      "active": true,
+      "active": false,
+      "id": 6
+    },
+    {
+      "hangul": "에",
+      "english": "to/in",
+      "romanized": "e",
+      "active": false,
       "id": 7
+    },
+    {
+      "hangul": "깨라",
+      "english": "wake up",
+      "romanized": "ggaera",
+      "active": false,
+      "id": 8
     },
     {
       "hangul": "우유",
       "english": "milk",
       "romanized": "uyu",
       "active": true,
-      "id": 8
+      "id": 9
     },
     {
       "hangul": "친구",
       "english": "friend",
       "romanized": "chingu",
-      "active": true,
-      "id": 9
+      "active": false,
+      "id": 10
     },
     {
       "hangul": "우의",
       "english": "friendship",
       "romanized": "uui [uwhä]",
-      "active": true,
-      "id": 10
+      "active": false,
+      "id": 11
     },
     {
       "hangul": "아이",
       "english": "child",
       "romanized": "ai",
-      "active": true,
-      "id": 11
+      "active": false,
+      "id": 12
     },
     {
       "hangul": "선생님",
       "english": "teacher",
       "romanized": "seonsaengnim [sonsängnim]",
-      "active": true,
-      "id": 12
+      "active": false,
+      "id": 13
     },
     {
       "hangul": "사람",
       "english": "person",
       "romanized": "saram",
       "active": true,
-      "id": 13
+      "id": 14
     },
     {
       "hangul": "남자",
       "english": "man",
       "romanized": "namja",
-      "active": true,
-      "id": 14
+      "active": false,
+      "id": 15
     },
     {
       "hangul": "여자",
       "english": "woman",
       "romanized": "yeoja",
-      "active": true,
-      "id": 15
+      "active": false,
+      "id": 16
     },
     {
       "hangul": "또는",
       "english": "or",
       "romanized": "ddoneun",
       "active": true,
-      "id": 16
+      "id": 17
     },
     {
       "hangul": "와",
       "english": "and/with",
       "romanized": "wa",
-      "active": true,
-      "id": 17
+      "active": false,
+      "id": 18
     },
     {
       "hangul": "과",
       "english": "and/with",
       "romanized": "gwa",
+      "active": false,
+      "id": 19
+    },
+    {
+      "hangul": "남자들",
+      "english": "men",
+      "romanized": "namjadeul",
+      "active": false,
+      "id": 20
+    },
+    {
+      "hangul": "여자들",
+      "english": "women/girls",
+      "romanized": "yeojadeul",
+      "active": false,
+      "id": 21
+    },
+    {
+      "hangul": "집",
+      "english": "house",
+      "romanized": "jib",
       "active": true,
-      "id": 18
+      "id": 22
+    },
+    {
+      "hangul": "빵",
+      "english": "bread",
+      "romanized": "bbang",
+      "active": true,
+      "id": 23
+    },
+    {
+      "hangul": "책",
+      "english": "book",
+      "romanized": "chaeg",
+      "active": true,
+      "id": 24
+    },
+    {
+      "hangul": "학교",
+      "english": "school",
+      "romanized": "haggyo",
+      "active": true,
+      "id": 25
+    },
+    {
+      "hangul": "사과",
+      "english": "apple",
+      "romanized": "sagwa",
+      "active": true,
+      "id": 26
+    },
+    {
+      "hangul": "연필",
+      "english": "pencil",
+      "romanized": "yeonpil",
+      "active": true,
+      "id": 27
+    },
+    {
+      "hangul": "음식",
+      "english": "food",
+      "romanized": "eumsig",
+      "active": true,
+      "id": 28
+    },
+    {
+      "hangul": "장소",
+      "english": "place",
+      "romanized": "jangso",
+      "active": true,
+      "id": 29
+    },
+    {
+      "hangul": "물건",
+      "english": "thing",
+      "romanized": "mulgeon",
+      "active": true,
+      "id": 30
+    },
+    {
+      "hangul": "여자아이",
+      "english": "girl",
+      "romanized": "yeojaai",
+      "active": false,
+      "id": 31
+    },
+    {
+      "hangul": "남자아이",
+      "english": "boy",
+      "romanized": "namjaai",
+      "active": false,
+      "id": 32
+    },
+    {
+      "hangul": "동물",
+      "english": "animal",
+      "romanized": "dongmul",
+      "active": true,
+      "id": 33
+    },
+    {
+      "hangul": "개",
+      "english": "dog",
+      "romanized": "gae",
+      "active": true,
+      "id": 34
+    },
+    {
+      "hangul": "고양이",
+      "english": "cat",
+      "romanized": "goyangi",
+      "active": true,
+      "id": 35
+    },
+    {
+      "hangul": "연회",
+      "english": "banquet",
+      "romanized": "yeonhoe",
+      "active": true,
+      "id": 37
+    },
+    {
+      "hangul": "모임",
+      "english": "meeting",
+      "romanized": "moim",
+      "active": true,
+      "id": 38
+    },
+    {
+      "hangul": "바다",
+      "english": "ocean",
+      "romanized": "bada",
+      "active": true,
+      "id": 39
+    },
+    {
+      "hangul": "산",
+      "english": "mountain",
+      "romanized": "san",
+      "active": true,
+      "id": 40
+    },
+    {
+      "hangul": "한국",
+      "english": "korea",
+      "romanized": "hangug",
+      "active": true,
+      "id": 41
+    },
+    {
+      "hangul": "길",
+      "english": "road",
+      "romanized": "gil",
+      "active": true,
+      "id": 42
+    },
+    {
+      "hangul": "공원",
+      "english": "park",
+      "romanized": "gongwon",
+      "active": true,
+      "id": 43
+    },
+    {
+      "hangul": "방",
+      "english": "room",
+      "romanized": "bang",
+      "active": true,
+      "id": 44
+    },
+    {
+      "hangul": "없습니다",
+      "english": "there is no(t)",
+      "romanized": "eobs-seubnida",
+      "active": true,
+      "id": 45
+    },
+    {
+      "hangul": "있습니다",
+      "english": "there is / has",
+      "romanized": "issseubnida",
+      "active": true,
+      "id": 46
+    },
+    {
+      "hangul": "가족",
+      "english": "family",
+      "romanized": "gajog",
+      "active": true,
+      "id": 47
+    },
+    {
+      "hangul": "차",
+      "english": "tea",
+      "romanized": "cha",
+      "active": true,
+      "id": 48
+    },
+    {
+      "hangul": "자동차",
+      "english": "car",
+      "romanized": "jadongcha",
+      "active": true,
+      "id": 49
+    },
+    {
+      "hangul": "메시지",
+      "english": "message",
+      "romanized": "mesiji",
+      "active": true,
+      "id": 50
+    },
+    {
+      "hangul": "공",
+      "english": "ball",
+      "romanized": "gong",
+      "active": true,
+      "id": 51
+    },
+    {
+      "hangul": "신문",
+      "english": "newspaper",
+      "romanized": "sinmun",
+      "active": true,
+      "id": 52
+    },
+    {
+      "hangul": "학생",
+      "english": "student",
+      "romanized": "hagsaeng",
+      "active": true,
+      "id": 53
+    },
+    {
+      "hangul": "영화",
+      "english": "movie",
+      "romanized": "yeonghwa",
+      "active": true,
+      "id": 54
+    },
+    {
+      "hangul": "맛있는",
+      "english": "delicious",
+      "romanized": "mas-issneun, machinün",
+      "active": true,
+      "id": 55
+    },
+    {
+      "hangul": "맛있습니다",
+      "english": "is delicious",
+      "romanized": "machisübnida",
+      "active": true,
+      "id": 56
+    },
+    {
+      "hangul": "음식은맛없습니다",
+      "english": "the food tastes bad",
+      "romanized": "ümchigünmadobsünida",
+      "active": true,
+      "id": 57
+    },
+    {
+      "hangul": "멋있습니다",
+      "english": "is awesome / is cool / is interesting(?)",
+      "romanized": "mochisünida",
+      "active": true,
+      "id": 58
+    },
+    {
+      "hangul": "멋없습니다",
+      "english": "is not cool",
+      "romanized": "modobsünida",
+      "active": true,
+      "id": 59
+    },
+    {
+      "hangul": "출신입니다",
+      "english": "is from",
+      "romanized": "tschulchinibnida",
+      "active": true,
+      "id": 60
+    },
+    {
+      "hangul": "의미가",
+      "english": "make sense",
+      "romanized": "wimiga",
+      "active": true,
+      "id": 61
+    },
+    {
+      "hangul": "가수",
+      "english": "singer",
+      "romanized": "gasu",
+      "active": true,
+      "id": 62
+    },
+    {
+      "hangul": "매력",
+      "english": "charm",
+      "romanized": "mäljo",
+      "active": true,
+      "id": 63
+    },
+    {
+      "hangul": "인기가",
+      "english": "celebrity, popular",
+      "romanized": "inkiga",
+      "active": true,
+      "id": 64
+    },
+    {
+      "hangul": "노래",
+      "english": "song",
+      "romanized": "norae",
+      "active": false,
+      "id": 65
+    },
+    {
+      "hangul": "개미",
+      "english": "ant",
+      "romanized": "gaemi",
+      "active": true,
+      "id": 66
+    },
+    {
+      "hangul": "나는",
+      "english": "I, me",
+      "romanized": "naneun [nanünn]",
+      "active": false,
+      "id": 67
+    },
+    {
+      "hangul": "너는",
+      "english": "you",
+      "romanized": "neoneun [nonnünn]",
+      "active": false,
+      "id": 68
+    },
+    {
+      "hangul": "배가고파",
+      "english": "hungry",
+      "romanized": "baega goPa",
+      "active": false,
+      "id": 69
+    },
+    {
+      "hangul": "배고파",
+      "english": "i’m hungry",
+      "romanized": "baegoPa",
+      "active": false,
+      "id": 70
+    },
+    {
+      "hangul": "너는배가고파",
+      "english": "you’re hungry",
+      "romanized": "neoneun baega goPa",
+      "active": false,
+      "id": 71
+    },
+    {
+      "hangul": "뽀뽀",
+      "english": "kiss",
+      "romanized": "bbo bbo",
+      "active": false,
+      "id": 72
+    },
+    {
+      "hangul": "양파",
+      "english": "onion",
+      "romanized": "yangpa",
+      "active": false,
+      "id": 73
+    },
+    {
+      "hangul": "하나",
+      "english": "one",
+      "romanized": "hana",
+      "active": false,
+      "id": 74
+    },
+    {
+      "hangul": "두",
+      "english": "two",
+      "romanized": "du",
+      "active": false,
+      "id": 75
+    },
+    {
+      "hangul": "세",
+      "english": "three",
+      "romanized": "se",
+      "active": false,
+      "id": 76
+    },
+    {
+      "hangul": "네",
+      "english": "four",
+      "romanized": "ne",
+      "active": false,
+      "id": 77
+    },
+    {
+      "hangul": "다섯",
+      "english": "five",
+      "romanized": "daseos",
+      "active": false,
+      "id": 78
+    },
+    {
+      "hangul": "육",
+      "english": "six",
+      "romanized": "yug",
+      "active": false,
+      "id": 79
+    },
+    {
+      "hangul": "일곱",
+      "english": "seven",
+      "romanized": "ilgob",
+      "active": false,
+      "id": 80
+    },
+    {
+      "hangul": "여덟",
+      "english": "eight",
+      "romanized": "yeodeolb",
+      "active": false,
+      "id": 81
+    },
+    {
+      "hangul": "아홉",
+      "english": "nine",
+      "romanized": "ahob",
+      "active": false,
+      "id": 82
+    },
+    {
+      "hangul": "십",
+      "english": "ten",
+      "romanized": "sib",
+      "active": false,
+      "id": 83
     }
   ]
 }
