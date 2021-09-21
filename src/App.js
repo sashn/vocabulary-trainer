@@ -92,6 +92,9 @@ function App() {
 
   return (
     <Router>
+      <Route exact path="/">
+        <Redirect to={ listUrl } />
+      </Route>
       <Route exact path={ baseUrl }>
         <Redirect to={ listUrl } />
       </Route>
