@@ -17,3 +17,15 @@
 .faux-td .form-check-input {
   margin: 0;
 }
+
+.home-button a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+  .practice-form-container {
+    margin-top: 100px;
+    padding: 0 300px;
+  }
+}

@@ -9,11 +9,15 @@ import Header from './components/Header';
 import Practice from './components/Practice';
 import List from './components/List';
 import AddManyWords from './components/AddManyWords';
+import data from './koreanwords.json';
 
 function App() {
   const [words, setWords] = useState([]);
 
   const serverUrl = 'http://localhost:5000/words/';
+  const baseUrl = '/vocabulary-trainer';
+  const listUrl = `${baseUrl}/list`;
+  const practiceUrl = `${baseUrl}/practice`;
 
   useEffect(() => {
     const getWordsFromDb = async () => {
@@ -88,12 +92,12 @@ function App() {
 
   return (
     <Router>
-      <Route exact path="/">
-        <Redirect to="/list" />
+      <Route exact path={ baseUrl }>
+        <Redirect to={ listUrl } />
       </Route>
-      <Header />
+      <Header listUrl={ listUrl } practiceUrl={ practiceUrl } />
       <Switch>
-        <Route path="/list">
+        <Route path={ listUrl }>
           <AddManyWords addManyWords={ addManyWords } />
           <List 
             words={ words } 
@@ -103,7 +107,7 @@ function App() {
             deleteWord={ deleteWord }
           />
         </Route>
-        <Route path="/practice">
+        <Route path={ practiceUrl }>
           <Practice words={ words } />
         </Route>
       </Switch>

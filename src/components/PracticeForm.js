@@ -21,8 +21,8 @@ const PracticeForm = ({ words }) => {
     const word = activeWords[Math.floor(Math.random() * activeWords.length)];
 
     if (typeof word !== 'undefined') {
-      setQuestion(word.hangul);
-      setAnswer(word.english);
+      setQuestion(word.english);
+      setAnswer(word.hangul);
     }
     setIsSubmitted(false);
     setGuess('');

@@ -5,7 +5,7 @@ const Practice = ({ words }) => {
   return (
 
     <div className="container">
-      <div style={{ padding: '100px 300px' }}>
+      <div className="practice-form-container">
         <PracticeForm words={ words } />
       </div>
     </div>

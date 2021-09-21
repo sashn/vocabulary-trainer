@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "db": "json-server --watch koreanwords.json --port 5000",
+    "db": "json-server --watch src/koreanwords.json --port 5000",
     "mystart": "start npm run start && start npm run db",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
