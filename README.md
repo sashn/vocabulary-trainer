@@ -16,16 +16,17 @@ Obviously with Github Pages, one can only run frontend code. Hence there is no P
 
 [Heroku](https://www.heroku.com/) seems awesome!
 
+## What it does
+
+- there are just two screens, **list** and **practice** (navigation top right), which allow to do the following things:
+- **list** allows to maintain a list of words (using the usual CRUD operations). can also toggle words as active/inactive.
+- **practice** allows to pratice all *active* words
+
 ## Running it locally
 
 - Download the code
 - Node, npm needs to be installed
 - In the project folder, run `npm run mystart` (see package.json for what that does)
-
-## What it does
-
-- maintain a list of words (using the usual CRUD operations)
-- practice all **active** words
 
 ## Tech used
 
