@@ -12,10 +12,6 @@ So I made a tiny app to help with that. Also to practice [React](https://reactjs
 Based on a project that helps with deploying React apps to Github Pages: https://github.com/gitname/react-gh-pages  
 Obviously with Github Pages, one can only run frontend code. Hence there is no Persistence.
 
-### Heroku (https://sashn-vocabulary-trainer.herokuapp.com)
-
-[Heroku](https://www.heroku.com/) seems awesome!
-
 ## What it does
 
 - there are just two screens, **list** and **practice** (navigation top right), which allow to do the following things:
