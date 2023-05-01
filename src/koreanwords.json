@@ -200,14 +200,14 @@
       "hangul": "장소",
       "english": "place",
       "romanized": "jangso",
-      "active": true,
+      "active": false,
       "id": 29
     },
     {
       "hangul": "물건",
       "english": "thing",
       "romanized": "mulgeon",
-      "active": true,
+      "active": false,
       "id": 30
     },
     {
@@ -228,7 +228,7 @@
       "hangul": "동물",
       "english": "animal",
       "romanized": "dongmul",
-      "active": true,
+      "active": false,
       "id": 33
     },
     {
@@ -263,14 +263,14 @@
       "hangul": "바다",
       "english": "ocean",
       "romanized": "bada",
-      "active": true,
+      "active": false,
       "id": 39
     },
     {
       "hangul": "산",
       "english": "mountain",
       "romanized": "san",
-      "active": true,
+      "active": false,
       "id": 40
     },
     {
@@ -284,21 +284,21 @@
       "hangul": "길",
       "english": "road",
       "romanized": "gil",
-      "active": true,
+      "active": false,
       "id": 42
     },
     {
       "hangul": "공원",
       "english": "park",
       "romanized": "gongwon",
-      "active": true,
+      "active": false,
       "id": 43
     },
     {
       "hangul": "방",
       "english": "room",
       "romanized": "bang",
-      "active": true,
+      "active": false,
       "id": 44
     },
     {
@@ -319,14 +319,14 @@
       "hangul": "가족",
       "english": "family",
       "romanized": "gajog",
-      "active": true,
+      "active": false,
       "id": 47
     },
     {
       "hangul": "차",
       "english": "tea",
       "romanized": "cha",
-      "active": true,
+      "active": false,
       "id": 48
     },
     {
@@ -347,14 +347,14 @@
       "hangul": "공",
       "english": "ball",
       "romanized": "gong",
-      "active": true,
+      "active": false,
       "id": 51
     },
     {
       "hangul": "신문",
       "english": "newspaper",
       "romanized": "sinmun",
-      "active": true,
+      "active": false,
       "id": 52
     },
     {
@@ -368,21 +368,21 @@
       "hangul": "영화",
       "english": "movie",
       "romanized": "yeonghwa",
-      "active": true,
+      "active": false,
       "id": 54
     },
     {
       "hangul": "맛있는",
       "english": "delicious",
       "romanized": "mas-issneun, machinün",
-      "active": true,
+      "active": false,
       "id": 55
     },
     {
       "hangul": "맛있습니다",
       "english": "is delicious",
       "romanized": "machisübnida",
-      "active": true,
+      "active": false,
       "id": 56
     },
     {
@@ -396,49 +396,49 @@
       "hangul": "멋있습니다",
       "english": "is awesome / is cool / is interesting(?)",
       "romanized": "mochisünida",
-      "active": true,
+      "active": false,
       "id": 58
     },
     {
       "hangul": "멋없습니다",
       "english": "is not cool",
       "romanized": "modobsünida",
-      "active": true,
+      "active": false,
       "id": 59
     },
     {
       "hangul": "출신입니다",
       "english": "is from",
       "romanized": "tschulchinibnida",
-      "active": true,
+      "active": false,
       "id": 60
     },
     {
       "hangul": "의미가",
       "english": "make sense",
       "romanized": "wimiga",
-      "active": true,
+      "active": false,
       "id": 61
     },
     {
       "hangul": "가수",
       "english": "singer",
       "romanized": "gasu",
-      "active": true,
+      "active": false,
       "id": 62
     },
     {
       "hangul": "매력",
       "english": "charm",
       "romanized": "mäljo",
-      "active": true,
+      "active": false,
       "id": 63
     },
     {
       "hangul": "인기가",
       "english": "celebrity, popular",
       "romanized": "inkiga",
-      "active": true,
+      "active": false,
       "id": 64
     },
     {
@@ -573,6 +573,13 @@
       "romanized": "sib",
       "active": false,
       "id": 83
+    },
+    {
+      "hangul": "기차",
+      "english": "train",
+      "romanized": "gitcha",
+      "active": true,
+      "id": 84
     }
   ]
 }
