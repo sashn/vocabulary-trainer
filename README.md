@@ -1,3 +1,0 @@
-# vocabulary-trainer
-
-test
